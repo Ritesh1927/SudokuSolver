@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Solution"
+    android:background="@color/blue2">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="219dp"
+        android:layout_height="74dp"
+        android:background="@color/blue2"
+        android:text="@string/solution"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564"
+        tools:ignore="TextSizeCheck" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="374dp"
+        android:layout_height="374dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/tv_border"
+        android:columnCount="9"
+        android:rowCount="9"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/t1"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:text=""
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:textColor="@color/black2"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t8"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t9"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="0"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t10"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t11"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t12"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t13"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t14"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t15"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t16"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t17"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t18"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="1"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t19"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t20"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t21"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t22"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t23"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t24"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t25"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t26"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t27"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="2"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t28"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t29"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t30"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t31"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t32"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:text=""
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:textColor="@color/black2"
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t33"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t34"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t35"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t36"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="3"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t37"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t38"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t39"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t40"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t41"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t42"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t43"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t44"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t45"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="4"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t46"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t47"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t48"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t49"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t50"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t51"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t52"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t53"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t54"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="5"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t55"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t56"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t57"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t58"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t59"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t60"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t61"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t62"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t63"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="6"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t64"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t65"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t66"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t67"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t68"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t69"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t70"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t71"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t72"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="7"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t73"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t74"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t75"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t76"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="3"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t77"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="4"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="DuplicateSpeakableTextCheck,LabelFor,SpeakableTextPresentCheck,TooManyViews,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t78"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="5"
+            android:background="@drawable/custom_edit_text2"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t79"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="6"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t80"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="7"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+        <TextView
+            android:id="@+id/t81"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_row="8"
+            android:layout_column="8"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:importantForAutofill="no"
+            
+            android:text=""
+            tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="729dp" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

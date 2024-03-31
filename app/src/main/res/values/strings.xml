@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sudoku Solver</string>
+    <string name="grid">Grid</string>
+    <string name="sudoku_solver">Sudoku Solver</string>
+    <string name="todo">TODO</string>
+    <string name="Grid">Grid</string>
+    <string name="_0">0</string>
+    <string name="go">Go</string>
+    <string name="solution">Solution</string>
+</resources>
